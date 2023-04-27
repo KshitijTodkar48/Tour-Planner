@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.img{
+    margin: 10px;
+}
+
+.info{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.info > button {
+    font-size: 20px;
+}
+
+.img > img {
+    height: 220px;
+    width: 220px;
+}
