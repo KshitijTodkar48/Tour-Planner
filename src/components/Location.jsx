@@ -4,7 +4,6 @@ import image1 from "../Images/Shaniwar_Wada_Attractions.jpg";
 import image2 from "../Images/Shreemant-Dagdusheth-Halwai-Sarvajanik-Ganpati-Pune.jpg";
 
 const Location = (props) => {
-    console.log(props) ;
     const locationArray = [
         {
             image : image1 ,
