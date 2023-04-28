@@ -16,21 +16,22 @@
 }
 
 .results > button {
-    width: 300px;
+    width: 250px;
     margin: 20px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 8px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 #options1{
-    font-size: 30px;
+    font-size: 25px;
     padding: 6px;
     width: 270px;
 }
 
 #options2{
-    font-size: 30px;
+    font-size: 25px;
     padding: 6px;
     width: 370px;
 }

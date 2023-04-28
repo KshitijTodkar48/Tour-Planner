@@ -48,7 +48,7 @@ function App() {
         </div>
 
         <div className="results">
-          <button onClick={clickHandler}>Show tour locations</button>
+          <button onClick={clickHandler}>Show tour destinations</button>
           <Location id = {category}/>
         </div>
       </div>
