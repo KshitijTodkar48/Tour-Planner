@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Location from "./components/Location";
 
@@ -6,24 +6,6 @@ function App() {
  
  const [val,setVal] = useState(false) ; 
  const [category,setCategory] = useState("") ;
-
- const [inputValue, setInputValue] = useState('');
-
-  // Load stored state when the component mounts
-  useEffect(() => {
-    console.log("Component mounted.") ;
-    const storedValue = sessionStorage.getItem('myInputValue');
-    if (storedValue) {
-      setInputValue(storedValue);
-      setVal(true) ;
-    }
-  }, []);
-
-  // Save state to local storage when the input value changes
-  useEffect(() => {
-    sessionStorage.setItem('myInputValue', inputValue);
-  }, [inputValue]); 
-
 
   const clickHandler = () => {
     const selectElement1 = document.getElementById("options1");
@@ -34,7 +16,6 @@ function App() {
       {
         setCategory(selectedOption2) ;
         setVal(true) ;
-        setInputValue([selectedOption1 ,selectedOption2]) ;
       }
     else
       {

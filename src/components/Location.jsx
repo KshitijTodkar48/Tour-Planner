@@ -29,10 +29,11 @@ const Location = (props) => {
   const ReligiousArray = [
     {
       image: image21,
-      name: "ISKCON Temple",
+      name: "ISKCON NVCC Temple",
       time: "4:30 am - 8:45 pm",
       fees: "No entry-fees",
       category: "Religious",
+      location: "https://www.google.co.in/maps/place/ISKCON+NVCC+Pune/@18.448645,73.8786001,17z/data=!4m10!1m2!2m1!1sISKCON+NVCC+Pune!3m6!1s0x3bc2eafba92dd749:0x5eba1b5bbe09d7ee!8m2!3d18.4485574!4d73.8811117!15sChBJU0tDT04gTlZDQyBQdW5lIgOIAQFaEiIQaXNrY29uIG52Y2MgcHVuZZIBDGhpbmR1X3RlbXBsZeABAA!16s%2Fm%2F0v3g7rc",
     },
     {
       image: image22,
@@ -40,6 +41,7 @@ const Location = (props) => {
       time: "6 am - 11 pm",
       fees: "No entry-fees",
       category: "Religious",
+      location: "https://www.google.co.in/maps/place/Shreemant+Dagdusheth+Halwai+Ganpati+Mandir/@18.5164555,73.8535409,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c06fa5b442ff:0x9df365f5b648bce1!8m2!3d18.5164555!4d73.8561212!16s%2Fm%2F04zxxlg",
     },
   ];
   const NaturalArray = [
@@ -49,6 +51,7 @@ const Location = (props) => {
       time: "--",
       fees: "No entry-fees",
       category: "Natural",
+      location: "https://www.google.co.in/maps/place/Tamhini+Ghat/@18.4759103,73.4489205,15z/data=!3m1!4b1!4m6!3m5!1s0x3be8072bbe562ae7:0x7bbcc611b0328a31!8m2!3d18.4759109!4d73.4592417!16s%2Fm%2F0vxfph4",
     },
     {
       image: image32,
@@ -56,11 +59,12 @@ const Location = (props) => {
       time: "9:30 am - 5 pm",
       fees: "40 INR (Adults) ; 10 INR (Kids)" ,
       category: "Natural",
+      location: "https://www.google.co.in/maps/place/Rajiv+Gandhi+Zoological+Park/@18.4524807,73.8582174,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eac307f7a82f:0x3ac431343224b00b!8m2!3d18.4524807!4d73.8607977!16s%2Fm%2F0479krv",
     },
   ];
 
   const handleClick = (url) => {
-    window.location.href = url;
+    window.open(url , '_blank') ;
   };
 
   return (
@@ -79,7 +83,7 @@ const Location = (props) => {
                     <p>Opening hours : {place.time} </p>
                     <p>Entry-fees : {place.fees} </p>
                     <p>Category of site : {place.category} </p>
-                    <button onClick={() => handleClick(place.location)}>Show location</button>
+                    <button onClick={() => handleClick(place.location)} >Show location</button>
                   </div>
                 </div>
               ))}
@@ -98,7 +102,7 @@ const Location = (props) => {
                         <p>Opening hours : {place.time} </p>
                         <p>Entry-fees : {place.fees} </p>
                         <p>Category of site : {place.category} </p>
-                        <button>Show location</button>
+                        <button >Show location</button>
                       </div>
                     </div>
                   ))}
