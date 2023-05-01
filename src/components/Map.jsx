@@ -21,7 +21,7 @@ function GoogleMap() {
         <input type="text" placeholder="Enter location name" value={location} onChange={(e) => setLocation(e.target.value)} />
         <div style={{ height: '500px', width: '100%' }}>
           <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyCkFc3NPEFmT5RJd1a9iEY8broDyDRrR2c' }}
+            bootstrapURLKeys={{ key: ''}}
             defaultCenter={mapOptions.center}
             defaultZoom={mapOptions.zoom}
             onGoogleApiLoaded={({ map, maps }) => onMapLoaded(map, maps)}
