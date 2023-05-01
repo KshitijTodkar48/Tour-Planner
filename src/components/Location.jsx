@@ -60,7 +60,6 @@ const Location = (props) => {
   ];
 
   const handleClick = (url) => {
-    // Replace "/your-url-here" with the actual URL you want to redirect the user to
     window.location.href = url;
   };
 

@@ -1,10 +1,29 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./App.css";
 import Location from "./components/Location";
 
 function App() {
-  
+ 
+ const [val,setVal] = useState(false) ; 
  const [category,setCategory] = useState("") ;
+
+ const [inputValue, setInputValue] = useState('');
+
+  // Load stored state when the component mounts
+  useEffect(() => {
+    console.log("Component mounted.") ;
+    const storedValue = sessionStorage.getItem('myInputValue');
+    if (storedValue) {
+      setInputValue(storedValue);
+      setVal(true) ;
+    }
+  }, []);
+
+  // Save state to local storage when the input value changes
+  useEffect(() => {
+    sessionStorage.setItem('myInputValue', inputValue);
+  }, [inputValue]); 
+
 
   const clickHandler = () => {
     const selectElement1 = document.getElementById("options1");
@@ -14,6 +33,8 @@ function App() {
     if(selectedOption1 && selectedOption2)
       {
         setCategory(selectedOption2) ;
+        setVal(true) ;
+        setInputValue([selectedOption1 ,selectedOption2]) ;
       }
     else
       {
@@ -49,7 +70,9 @@ function App() {
 
         <div className="results">
           <button onClick={clickHandler}>Show tour destinations</button>
-          <Location id = {category}/>
+          {
+             val ? <Location id = {category}/> : <></>
+          }
         </div>
       </div>
     </div>
