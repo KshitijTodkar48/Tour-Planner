@@ -58,6 +58,12 @@ const Location = (props) => {
       category: "Natural",
     },
   ];
+
+  const handleClick = (url) => {
+    // Replace "/your-url-here" with the actual URL you want to redirect the user to
+    window.location.href = url;
+  };
+
   return (
     <div className="location">
       {props.id !== "" ? (
@@ -74,7 +80,7 @@ const Location = (props) => {
                     <p>Opening hours : {place.time} </p>
                     <p>Entry-fees : {place.fees} </p>
                     <p>Category of site : {place.category} </p>
-                    <button>Show location</button>
+                    <button onClick={() => handleClick(place.location)}>Show location</button>
                   </div>
                 </div>
               ))}
