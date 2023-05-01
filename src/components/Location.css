@@ -16,10 +16,27 @@
 
 .info > button {
     width: 170px;
-    height: 32px;
+    height: 35px;
+    margin-top: 4px;
     font-size: 20px;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.info-field {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.que {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ans {
+    font-size: 22px;
+    margin-left: 8px;
+    color: rgb(95, 92, 92);
 }
 
 .img > img {

@@ -33,7 +33,7 @@ const Location = (props) => {
       time: "4:30 am - 8:45 pm",
       fees: "No entry-fees",
       category: "Religious",
-      location: "https://www.google.co.in/maps/place/ISKCON+NVCC+Pune/@18.448645,73.8786001,17z/data=!4m10!1m2!2m1!1sISKCON+NVCC+Pune!3m6!1s0x3bc2eafba92dd749:0x5eba1b5bbe09d7ee!8m2!3d18.4485574!4d73.8811117!15sChBJU0tDT04gTlZDQyBQdW5lIgOIAQFaEiIQaXNrY29uIG52Y2MgcHVuZZIBDGhpbmR1X3RlbXBsZeABAA!16s%2Fm%2F0v3g7rc",
+      location: "https://www.google.co.in/maps/place/ISKCON+NVCC+Pune/@18.4485574,73.8785314,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eafba92dd749:0x5eba1b5bbe09d7ee!8m2!3d18.4485574!4d73.8811117!16s%2Fm%2F0v3g7rc",
     },
     {
       image: image22,
@@ -79,10 +79,10 @@ const Location = (props) => {
                     <img src={place.image} alt="Image_of_location" />
                   </div>
                   <div className="info">
-                    <p>Location Name : {place.name}</p>
-                    <p>Opening hours : {place.time} </p>
-                    <p>Entry-fees : {place.fees} </p>
-                    <p>Category of site : {place.category} </p>
+                    <div className="info-field"><div className="que">Location Name : </div> <div className="ans">{place.name}</div></div>
+                    <div className="info-field"><div className="que">Opening hours : </div> <div className="ans">{place.time} </div></div>
+                    <div className="info-field"><div className="que">Entry-fees : </div> <div className="ans">{place.fees} </div></div>
+                    <div className="info-field"><div className="que">Category of site : </div> <div className="ans">{place.category} </div></div>
                     <button onClick={() => handleClick(place.location)} >Show location</button>
                   </div>
                 </div>
@@ -98,11 +98,11 @@ const Location = (props) => {
                         <img src={place.image} alt="Image_of_location" />
                       </div>
                       <div className="info">
-                        <p>Location Name : {place.name}</p>
-                        <p>Opening hours : {place.time} </p>
-                        <p>Entry-fees : {place.fees} </p>
-                        <p>Category of site : {place.category} </p>
-                        <button >Show location</button>
+                        <div className="info-field"><div className="que">Location Name : </div> <div className="ans">{place.name}</div></div>
+                        <div className="info-field"><div className="que">Opening hours : </div> <div className="ans">{place.time} </div></div>
+                        <div className="info-field"><div className="que">Entry-fees : </div> <div className="ans">{place.fees} </div></div>
+                        <div className="info-field"><div className="que">Category of site : </div> <div className="ans">{place.category} </div></div>
+                        <button onClick={() => handleClick(place.location)}>Show location</button>
                       </div>
                     </div>
                   ))}
@@ -115,11 +115,11 @@ const Location = (props) => {
                         <img src={place.image} alt="Image_of_location" />
                       </div>
                       <div className="info">
-                        <p>Location Name : {place.name}</p>
-                        <p>Opening hours : {place.time} </p>
-                        <p>Entry-fees : {place.fees} </p>
-                        <p>Category of site : {place.category} </p>
-                        <button>Show location</button>
+                        <div className="info-field"><div className="que">Location Name : </div> <div className="ans">{place.name}</div></div>
+                        <div className="info-field"><div className="que">Opening hours : </div> <div className="ans">{place.time} </div></div>
+                        <div className="info-field"><div className="que">Entry-fees : </div> <div className="ans">{place.fees} </div></div>
+                        <div className="info-field"><div className="que">Category of site : </div> <div className="ans">{place.category} </div></div>
+                        <button onClick={() => handleClick(place.location)}>Show location</button>
                       </div>
                     </div>
                   ))}
