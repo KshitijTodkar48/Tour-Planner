@@ -1,6 +1,6 @@
 .card{
     display: flex;
-    border: 2px solid;
+    border: 1px solid rgb(60, 60, 60);
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -19,8 +19,11 @@
     height: 35px;
     margin-top: 4px;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(70, 55, 160);
 }
 
 .info-field {
