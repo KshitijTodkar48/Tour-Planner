@@ -37,7 +37,7 @@ const Location = (props) => {
     },
     {
       image: image22,
-      name: "Dagadu-sheth Ganpati",
+      name: "Dagadu-Sheth Ganpati",
       time: "6 am - 11 pm",
       fees: "No entry-fees",
       category: "Religious",
