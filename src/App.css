@@ -32,7 +32,11 @@ background: radial-gradient(circle, rgba(58,81,93,1) 36%, rgba(22,34,42,1) 96%);
     cursor: pointer;
     border: 1px solid white;
     color: white;
-    background-color: rgb(16, 72, 124);
+    background-color: rgb(14, 67, 102);
+}
+
+.results > button:hover {
+    background-color: rgb(82, 103, 123);
 }
 
 #options1{

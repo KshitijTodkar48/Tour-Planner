@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
             </div>
       </footer>
-      <h3
+      <h2
         style={{
           color: "#919191",
           textAlign: "center",
@@ -79,19 +79,19 @@ const Footer = () => {
         }}
       >
         Developed by Kshitij Todkar
-      </h3>
+      </h2>
       <h5
         style={{
           color: "#989898",
           padding: "20px",
           textAlign: "center",
-          fontSize: "14px",
+          fontSize: "16px",
           backgroundColor: "#03072e"
         }}
       >
         © Tour Planner-2023. All rights reserved. The material and content on
-        this site may not be reproduced, distributed, transmitted, cached, or
-        otherwise used, except with the prior written permission.
+        this site may not be reproduced, distributed, transmitted, cached or
+        otherwise used without any prior permission.
       </h5>
     </div>
   );

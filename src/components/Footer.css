@@ -66,7 +66,7 @@ ul {
 }
 
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -87,7 +87,7 @@ ul {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
@@ -101,7 +101,7 @@ ul {
   padding-left: 4px;
 }
 .footer-col ul li {
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
@@ -115,12 +115,12 @@ ul {
 }
 .footer-col .social-links a {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;

@@ -3,7 +3,7 @@
     border: 1px solid rgb(60, 60, 60);
     padding: 10px;
     margin-bottom: 20px;
-    background-color: rgb(210, 224, 226);
+    background-color: rgb(190, 224, 242);
     border-radius: 10px;
 }
 
@@ -25,8 +25,11 @@
     cursor: pointer;
     border: none;
     color: white;
-    background: rgb(58,81,93);
-    background: radial-gradient(circle, rgba(58,81,93,1) 36%, rgba(22,34,42,1) 96%);
+    background:rgb(14, 67, 102);
+}
+
+.info > button:hover{
+    background-color: rgb(60, 97, 131);
 }
 
 .info-field {
@@ -42,7 +45,7 @@
 .ans {
     font-size: 22px;
     margin-left: 8px;
-    color: rgb(95, 92, 92);
+    color: rgb(65, 70, 75);
 }
 
 .img > img {
