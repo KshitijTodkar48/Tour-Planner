@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Location from "./components/Location";
+import Footer from "./components/Footer";
 
 function App() {
  
@@ -55,6 +56,9 @@ function App() {
              val ? <Location id = {category}/> : <></>
           }
         </div>
+      </div>
+      <div className="footer">
+        <Footer/>
       </div>
     </div>
   );

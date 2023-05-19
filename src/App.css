@@ -1,3 +1,8 @@
+.App{
+background: rgb(58,81,93);
+background: radial-gradient(circle, rgba(58,81,93,1) 36%, rgba(22,34,42,1) 96%);
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -6,6 +11,7 @@
 }
 
 .input{
+    color: white;
     margin-top: 20px;
     font-size: 30px;
 }
@@ -24,19 +30,21 @@
     padding: 8px;
     border-radius: 30px;
     cursor: pointer;
-    border: none;
+    border: 1px solid white;
     color: white;
-    background-color: rgb(70, 55, 160);
+    background-color: rgb(16, 72, 124);
 }
 
 #options1{
     font-size: 25px;
     padding: 6px;
     width: 270px;
+    border-radius: 20px;
 }
 
 #options2{
     font-size: 25px;
     padding: 6px;
     width: 370px;
+    border-radius: 20px;
 }

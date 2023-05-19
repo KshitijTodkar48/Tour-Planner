@@ -7,16 +7,26 @@ const Footer = () => {
       <footer className="footer">
             <div className="footer-col">
               <div className="footer-content">
-              <h4>Community</h4>
+              <h4>Team</h4>
               <ul>
                 <li>
-                  <a href="https://www.linkedin.com/in/sunit-kapure-85944423a">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kshitij-todkar-95b59b267/">
                     Lead Developer
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/sanika-ingle-096587259">
-                    Frontend Developer
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/govardhan-yadav-576753229/">
+                    UI Developer
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aditya-tighare-763731262/">
+                    Data Processor
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/abhijit-kulkarni-926627250/">
+                    Documentation
                   </a>
                 </li>
               </ul>
@@ -28,7 +38,7 @@ const Footer = () => {
               <h4>Contact Us</h4>
               <ul>
                 <li>Email : tour_planner48@gmail.com</li>
-                <li>Phone no : +91 8799992023</li>
+                <li>Phone no : +91 9561031701</li>
                 <li>
                   Address : JSPM Rajarshi Shahu College of Engineering,
                   Tathawade, Service Rd, Ashok Nagar, Tathawade,
