@@ -1,0 +1,43 @@
+/* CSS for Food Menu */
+.menu{
+    background: rgb(58,81,93);
+    background: radial-gradient(circle, rgba(58,81,93,1) 36%, rgba(22,34,42,1) 96%);
+    font-size: 23px;
+}
+.menu-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 43%;
+    margin-bottom: 30px ;
+    padding: 2%;
+    float: left;
+    background-color: rgb(190, 224, 242);
+    border-radius: 15px;
+}
+
+.container h2 {
+    color : white ;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.menu-img img {
+   height: 180px;
+   width: 180px;
+}
+
+.menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 10%;
+}
+
+.price{
+    font-size: 1 rem;
+    margin: 2% 0;
+}
+.detail{
+    font-size: 1rem;
+    color: #e01052;
+}
