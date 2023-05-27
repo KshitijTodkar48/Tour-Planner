@@ -78,7 +78,7 @@ function Home() {
           {
              val ? <><Location id1 = {days} id2 = {category} />
              <button className="dbutton">
-          <Link className="link" to="/packages">Show Tour Packages</Link>
+          <Link className="link" to="/packages" id = "packages" >Show Tour Packages</Link>
         </button>
              </> : <></>
           }

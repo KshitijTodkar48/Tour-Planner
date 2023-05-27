@@ -34,13 +34,17 @@
 .loginButton{
     margin-top: 40px;
     cursor: pointer;
-    background-color: #f5e3e3;
-    border: 1px solid;
+    background-color: #f4d8d8;
+    border: none;
     border-radius: 12px;
     padding: 8px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+}
+
+.loginButton:hover {
+   background-color: #f4c8c8;
 }
 
 .link{
@@ -49,9 +53,9 @@
 
 .loginRegisterButton{
     position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #f5e3e3;
+    top: 30px;
+    right: 40px;
+    background-color: #f4d8d8;
     cursor: pointer;
     border-radius: 12px;
     padding: 8px;

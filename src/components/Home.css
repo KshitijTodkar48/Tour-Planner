@@ -41,8 +41,11 @@
     }
 
     .link {
-        color: white;
         text-decoration: none;
+    }
+
+    #packages {
+        color: white;
     }
     
     .results > button:hover {
